@@ -45,3 +45,7 @@ group :development do
   gem 'spring'
 end
 
+gem "devise"
+gem 'twilio-ruby', '~> 4.0.0'
+gem 'phonelib'
+gem 'dotenv-rails', :groups => [:development, :test] # optional
